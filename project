@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="Tulipanes" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+     <link rel="Stylesheet" href="css/bootstrap.min.css">
+
+    
+  </head>
+  <body>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    -->
+    <style>
+        
+        h1 {
+            font-size:2.2em;
+            color:rgb(135, 32, 135);
+            text-transform:capitalize;
+            text-shadow: white 6px 0;
+            text-align:center;
+            
+        }
+        h2 {color:rgb(122, 8, 140);
+         background-color:rgb(237,165,206);  
+          line-height:normal;
+          font-weight:bold;
+          font-family:serif; 
+           
+        }
+         body {background-color:rgb(250, 230, 250);
+             
+         }
+        .principal{
+            color:rgb(135, 32, 135);
+            font-size:1.3em;
+        }
+        
+        ul.olive {color:olive;}
+        
+        .valor{background-color: purple; 
+            
+            color:rgb(247, 244, 247);
+        }
+        
+        th:first-child{
+background:lightpink;
+}
+th:last-child{
+background:lightpink;
+}
+
+th:nth-child(2n) {
+background: lightpink;
+}
+th:nth-child(3n){
+background:lightpink;
+}
+
+        
+         legend:hover {
+color:olive;
+}
+legend:active {
+color:orange;
+}
+input:focus  {
+color:blue;
+}
+a: link{
+color:blue;
+color:#fff;
+}
+a: visited{
+color:olive;
+}
+
+.caja1{
+background:lightpink;
+min-width:504px;
+height:82px;
+padding:6px;
+border:3px solid purple;
+margin-top:30px;
+margin-right:2;
+margin-bottom:2;
+margin-left:10;
+
+}
+.tabla1{
+color:black;
+border:2px solid purple;
+width:300px;height:300px;
+display:inline;
+text-align:center;
+background:lightpink;
+position:relative;
+left:2px;
+bottom:8px;
+
+}
+ul{border:2px dotted purple;
+   padding:1em;
+   list-style:none;
+   text-decoration:none;
+   position:relative;
+   margin-top:30px;
+   left:9px;
+   
+}
+.cielo{
+   border:11px solid pink;
+   position:relative;
+left:77px;
+}
+
+             </style>
+             
+
+ <head>
+ 
+  </head>
+   
+ <body>
+  </body>
+ 
+ <h1>Tulipanes</h1>
+         
+      <img class="cielo"src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/landscapes/beach-sunset.png" alt="delicioso cafe miestras te fijas en el arte" width="400" 
+       >
+      
+      
+          <h2 class="principal">Quienes somos</h2>
+          
+          
+      
+      <p> <strong>Hola soy Danna Isabella </strong></p>
+                   
+                           <br>
+      
+      
+Quiero que me <em>acompañes</em> en este gran <em>emprendimiento</em> para que conozcas el lugar donde nos encontramos, te tomes un delicioso cafe al visitarnos y que por medio de esta página web en la comodidad de tu casa,en tu trabajo, en el lugar donde te encuentres puedas ver el <em>arte que he diseñado para ti.</em> <br>
+<strong>Ven acompáñame </strong>
+<p>
+      
+      <h2 class="valor">Productos</h2>
+      <ul class="olive">
+      <li>Mesa decorada </li>
+      <li>Bandejas </li>
+      <li>Portavasos</li>
+      <li>Cuadritos- Decoración habitación</li>
+               </ul>
+               
+              <!-- Tenemos que acompañar estos productos con una imagen --> 
+               
+               
+               <h2 class="valor">Precios </h2>
+           
+           <table > 
+           
+         <div class="tabla1"> Productos </div>
+         <div class="tabla1">  Tamaño  </div> 
+         <div class="tabla1"> Decoración  </div>
+         <div class="tabla1">  Precios </div>
+         
+         
+      <tr> 
+          <td> Mesa </td> 
+          <td> Mediana </td>
+          <td> Mandalas </td>
+          <td> 60.000 </td> 
+           
+       </tr> 
+      
+      <tr> 
+          <td> Mesa </td> 
+          <td> Grande  </td>
+          <td> Mandalas </td>
+          <td> 100.000 </td> 
+          
+      </tr> 
+      
+      <tr> 
+          <td> Bandeja</td> 
+          <td> Mediana </td>
+          <td> Mandalas </td>
+          <td> 30.000 </td> 
+          
+       </tr> 
+       
+       <tr> 
+          <td> Bandeja</td> 
+          <td> Grande </td>
+          <td> Mandalas </td>
+          <td> 40.000 </td> 
+           
+       </tr> 
+      
+       <tr> 
+          <td> Portavasos</td> 
+          <td> Normal </td>
+          <td> Mandalas </td>
+          <td> 20.000 </td> 
+          
+       </tr> 
+        <tr> 
+          <td> Cuadritos</td> 
+          <td> Pequeño </td>
+          <td> Paisajes </td>
+          <td> 5.000 </td> 
+           
+       </tr> 
+       <tr> 
+          <td> Cudritos</td> 
+          <td> Mediano </td>
+          <td> Paisajes </td>
+          <td> 10.000 </td> 
+           
+       </tr> 
+      
+       <tr> 
+          <td> Cuadritos</td> 
+          <td> Grande </td>
+          <td> Paisajes </td>
+          <td> 30.000 </td> 
+           
+       </tr> 
+       
+                  </table> 
+      
+      <h2 class="valor"> Contactanos </h2>
+
+     <div class="caja1">
+ 
+    <li>Dannaisabellarc@gmail.com</li>
+      <li>@danna_isar</li>
+      <li>Tel 3214109821</li>
+     </div>   
+     
+     
+              <a href="https://pin.it/5VbKuud">Encuentra diferentes productos aquí 
+         
+      </a>
+      
+      <fieldset>
+      
+      <legend>Datos Personales</legend>
+      <li>Nombre completo:<input type="text"/></li>
+      
+     <li>Correo para mas info: <input type="text"/> </li>
+      </fieldset>
+  </body>
+</html>
